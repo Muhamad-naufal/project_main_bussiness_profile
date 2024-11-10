@@ -36,7 +36,7 @@ const Service = () => {
   ];
 
   return (
-    <div className="bg-gray-900 pt-10 pb-20 px-5 md:px-10">
+    <div id="service" className="bg-gray-900 pt-10 pb-20 px-5 md:px-10">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-center font-bold text-4xl pb-12 text-[#33CCCC]">
           Service Kami

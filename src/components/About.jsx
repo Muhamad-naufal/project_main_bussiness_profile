@@ -10,7 +10,10 @@ const About = () => {
   });
 
   return (
-    <div className="bg-gray-950 py-20 px-5 md:px-10 overflow-x-hidden overflow-y-hidden">
+    <div
+      id="about"
+      className="bg-gray-950 py-20 px-5 md:px-10 overflow-x-hidden overflow-y-hidden"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row gap-7 items-center">
           <div className="md:w-1/2 space-y-5">
@@ -27,9 +30,6 @@ const About = () => {
               menghubungi kami. Semoga kita bisa bekerja sama dengan baik dan
               menghasilkan website yang berkualitas. Terima kasih.
             </p>
-            <button className="rounded-md px-4 py-2 bg-transparent text-white border-2 border-green-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]">
-              Learn More
-            </button>
           </div>
           <div className="md:w-1/2">
             <img

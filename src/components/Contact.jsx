@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="bg-gray-950">
+    <div id="contact" className="bg-gray-950">
       <div className="max-w-7xl mx-auto items-center flex flex-col py-8 px-4 md:px-8 min-h-screen">
         <motion.h2
           initial={{ opacity: 0, scale: 0.5 }}
