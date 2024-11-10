@@ -29,7 +29,11 @@ const Contact = () => {
             transition={{ duration: 1.5, delay: 0.4 }}
             className="bg-[#c7e9ec]  shadow-xl shadow-[#33CCCC] rounded-lg p-8 md:p-12 max-w-xl md:w-[400px]"
           >
-            <form action="" className="flex flex-col space-y-6">
+            <form
+              action="https://formspree.io/f/xpwzrwzl"
+              method="POST"
+              className="flex flex-col space-y-6"
+            >
               <div>
                 <label
                   htmlFor="name"
